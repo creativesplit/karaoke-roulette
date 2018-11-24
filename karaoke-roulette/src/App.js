@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import './App.css';
 import Header from "./Header"
-import Homepage from './HomePage'
 import SelectSong from './SelectSong'
 import Controls from './Controls'
+import YouTube from './Youtube';
 
 class App extends Component {
   constructor(props) {
@@ -20,11 +20,10 @@ class App extends Component {
       ],
 
       wheel: [
-        // {
-        //   artist: "Cardi B",
-        //   song: "Bodak Yellow",
-        //   url: "/dhhdkdh"
-        // },
+        //   artist:"",
+        //   song: "",
+        //   url: ""
+        
       ],
       songs: [
         {
@@ -197,7 +196,8 @@ class App extends Component {
   // designation or can I just add it?
 handleChange = (choice) => {
     this.setState({
-      wheel: this.state.wheel.concat(choice)
+      wheel: this.state.wheel.concat([choice]),
+      
     })
   }
 
@@ -206,7 +206,6 @@ handleChange = (choice) => {
     return (
       <div className="App">
        <Header />
-       <Homepage />
        <Switch>
        <Route path="/selectsongs" render={(props) => <SelectSong handleChange={this.handleChange} {...this.state} {...props} />}/>
        <Route path="/" render={(props) => <Controls {...this.state} {...props} />}/>

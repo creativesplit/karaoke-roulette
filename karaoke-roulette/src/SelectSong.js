@@ -5,8 +5,16 @@ import './SelectSong.css'
 class SelectSong extends Component {
 
     addSong = (e) => {
-        this.props.handleChange((e.target.className  )  +   (  e.target.name  )+( e.target.id))
+        this.props.handleChange((this.props.wheel.artist = e.target.className)+(this.props.wheel.song = e.target.name)+(this.props.wheel.url = e.target.id))
     }
+
+    // addSong2 = (e) => {
+    //     this.props.handleChange(e.target.name)
+    // }
+
+    // addSong3 = (e) => {
+    //     this.props.handleChange(e.target.id)
+    // }
 
     displayValue = (e) => {
         console.log(e.target.value)
@@ -18,7 +26,7 @@ class SelectSong extends Component {
   
         return (
         <div>
-            <h3>Select Your Songs</h3>
+            <h2 className='title'>Select Your Songs</h2>
             <div className='button-wrapper'>
             <input onClick={this.addSong} type="button" name={this.props.songs[0].title} className={this.props.songs[0].artist} id={this.props.songs[0].url} value ='Cardi B - Bodak Yellow'/>
             <input onClick={this.addSong} type="button" name={this.props.songs[1].title} className={this.props.songs[1].artist} id={this.props.songs[1].url} value ='Ed Shareen - Perfect'/>

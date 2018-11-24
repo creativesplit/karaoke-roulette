@@ -5,7 +5,8 @@ input{
     font-size: 15px; 
 }
 
-h2{
+.title{
     text-align: center;
     justify-content: center;
+    color: black;
 }
