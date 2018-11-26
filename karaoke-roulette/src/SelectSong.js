@@ -5,7 +5,17 @@ import './SelectSong.css'
 class SelectSong extends Component {
 
     addSong = (e) => {
-        this.props.handleChange((this.props.wheel.artist = e.target.className)+(this.props.wheel.song = e.target.name)+(this.props.wheel.url = e.target.id))
+        let artist = e.target.className
+        let song = e.target.name
+        let video = e.target.id
+
+        let combined = {
+          artist: artist,
+          song: song,
+          video: video
+        }
+
+        this.props.handleChange(combined)
     }
 
     // addSong2 = (e) => {
