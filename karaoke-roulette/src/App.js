@@ -29,163 +29,163 @@ class App extends Component {
         {
             "artist": "Cardi B",
             "title": "Bodak Yellow",
-            "url": "https://www.youtube.com/watch?v=1g8S-enLQ60",
+            "url": "https://www.youtube.com/embed/1g8S-enLQ60",
     
     },
     {
             "artist": "Ed Sheeran",
             "title": "Perfect",
-            "url": "https://www.youtube.com/watch?v=sPMA1tqWuf4",
+            "url": "https://www.youtube.com/embed/sPMA1tqWuf4",
     
     },
     {
             "artist": "Smash Mouth",
             "title": "All Star",
-            "url": "https://www.youtube.com/watch?v=ABOYo7ioQJo",
+            "url": "https://www.youtube.com/embed/ABOYo7ioQJo",
     
     },
       {
             "artist": "Toto",
             "title": "Africa",
-            "url": "https://www.youtube.com/watch?v=ya3HfowI_aY",
+            "url": "https://www.youtube.com/embed/ya3HfowI_aY",
     
     },
     {
             "artist": "Brtiney Spears",
             "title": "Toxic",
-            "url": "https://www.youtube.com/watch?v=Z_tTE7SBlo0",
+            "url": "https://www.youtube.com/embed/Z_tTE7SBlo0",
     
     },
     {
             "artist": "Celine Deion",
             "title": "My Heart Will Go On",
-            "url": "https://www.youtube.com/watch?v=cdgU8YmD3Kc",
+            "url": "https://www.youtube.com/embed/cdgU8YmD3Kc",
     
     },
     {
             "artist": "Seal",
             "title": "Kiss From A Rose",
-            "url": "https://www.youtube.com/watch?v=Ug6Mr144qrM",
+            "url": "https://www.youtube.com/embed/Ug6Mr144qrM",
     
     },
     {
             "artist": "Frozen",
             "title": "Let It Go",
-            "url": "https://www.youtube.com/watch?v=ifCAfAzOBJM",
+            "url": "https://www.youtube.com/embed/ifCAfAzOBJM",
     
     },
     {
             "artist": "Alicia Keys",
             "title": "If I aint got you",
-            "url": "https://www.youtube.com/watch?v=M5Q0eiMzup0",
+            "url": "https://www.youtube.com/embed/M5Q0eiMzup0",
     
     },
     {
             "artist": "Anna Kendrick",
             "title": "Cups (Pitch Perfect's When I'm Gone)",
-            "url": "https://www.youtube.com/watch?v=mNL7iE-CxXA",
+            "url": "https://www.youtube.com/embed/mNL7iE-CxXA",
     
     },
     {
             "artist": "David Guetta feat. Sia",
             "title": "Titanium",
-            "url": "https://www.youtube.com/watch?v=32LB2DR_JM0",
+            "url": "https://www.youtube.com/embed/32LB2DR_JM0",
     
     },
     {
             "artist": "Beyonce",
             "title": "Halo",
-            "url": "https://www.youtube.com/watch?v=TBwf18A_Obo",
+            "url": "https://www.youtube.com/embed/TBwf18A_Obo",
     
     },
     {
             "artist": "Flume ft. Kai",
             "title": "Never Be Like You",
-            "url": "https://www.youtube.com/watch?v=j7vRvZl-9ic",
+            "url": "https://www.youtube.com/embed/j7vRvZl-9ic",
     
     },
     {
             "artist": "Amy Winehouse",
             "title": "Back to Black",
-            "url": "https://www.youtube.com/watch?v=snSHKsE22DQ",
+            "url": "https://www.youtube.com/embed/snSHKsE22DQ",
     
     },
     {
             "artist": "Beyonce",
             "title": "Listen",
-            "url": "https://www.youtube.com/watch?v=nUTqLi7UtLQ",
+            "url": "https://www.youtube.com/embed/nUTqLi7UtLQ",
     
     },
     {
             "artist": "Sublime",
             "title": "What I got",
-            "url": "https://www.youtube.com/watch?v=JnQY3EnaxXQ",
+            "url": "https://www.youtube.com/embed/JnQY3EnaxXQ",
     
     },
     {
             "artist": "Red Hot Chili Peppers ",
             "title": "Under the Bridge",
-            "url": "https://www.youtube.com/watch?v=AEce22afpbU",
+            "url": "https://www.youtube.com/embed/AEce22afpbU",
     
     },
     {
             "artist": "Green Day",
             "title": "21 Guns",
-            "url": "https://www.youtube.com/watch?v=Q6nw3xlHM2Q",
+            "url": "https://www.youtube.com/embed/Q6nw3xlHM2Q",
     
     },
     {
             "artist": "Green Day",
             "title": "Basket Case",
-            "url": "https://www.youtube.com/watch?v=UntbNt8rK4w",
+            "url": "https://www.youtube.com/embed/UntbNt8rK4w",
     
     },
     {
             "artist": "Cee Lo Green",
             "title": "Forget You",
-            "url": "https://www.youtube.com/watch?v=l-hN9wzbPJE",
+            "url": "https://www.youtube.com/embed/l-hN9wzbPJE",
     
     },
      {
             "artist": "Survivor",
             "title": "Eye Of The Tiger",
-            "url": "https://www.youtube.com/watch?v=aGCyrDahk4I",
+            "url": "https://www.youtube.com/embed/aGCyrDahk4I",
     
     },
      {
             "artist": "Childish Gambino",
             "title": "Feels Like Summer",
-            "url": "https://www.youtube.com/watch?v=aGCyrDahk4I",
+            "url": "https://www.youtube.com/embed/aGCyrDahk4I",
     
     },
      {
             "artist": "Notorious BIG",
             "title": "Juicy",
-            "url": "https://www.youtube.com/watch?v=tXEgOApN1uM",
+            "url": "https://www.youtube.com/embed/tXEgOApN1uM",
     
     },
      {
             "artist": "Notorious BIG",
             "title": "Big Poppa",
-            "url": "https://www.youtube.com/watch?v=LE0NtT0IK1c",
+            "url": "https://www.youtube.com/embed/LE0NtT0IK1c",
     
     },
      {
             "artist": "Notorious BIG",
             "title": "Mo Money Mo Problems",
-            "url": "https://www.youtube.com/watch?v=uDmv1kh9_g8",
+            "url": "https://www.youtube.com/embed/uDmv1kh9_g8",
     
     },
      {
             "artist": "Sublime",
             "title": "Santeria",
-            "url": "https://www.youtube.com/watch?v=M9T43nB58NY",
+            "url": "https://www.youtube.com/embed/M9T43nB58NY",
     
     },
      {
             "artist": "Sublime",
             "title": "Garden Grove",
-            "url": "https://www.youtube.com/watch?v=vxxGhc3tiLo",
+            "url": "https://www.youtube.com/embed/vxxGhc3tiLo",
     
     },
   ]
@@ -196,8 +196,7 @@ class App extends Component {
   // designation or can I just add it?
 handleChange = (choice) => {
     this.setState({
-      wheel: this.state.wheel.concat([choice]),
-      
+      wheel: this.state.wheel.concat(choice)
     })
   }
 
