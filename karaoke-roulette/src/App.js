@@ -4,7 +4,7 @@ import './App.css';
 import Header from "./Header"
 import SelectSong from './SelectSong'
 import Controls from './Controls'
-import YouTube from './Youtube';
+import Intro from './Intro';
 
 class App extends Component {
   constructor(props) {
@@ -27,21 +27,21 @@ class App extends Component {
       ],
       songs: [
         {
-            "artist": "Cardi B",
-            "title": "Bodak Yellow",
-            "url": "https://www.youtube.com/embed/1g8S-enLQ60",
+            "artist": "The Eagles",
+            "title": "Hotel California",
+            "url": "https://www.youtube.com/embed/iMYumh4M5cc",
     
     },
     {
-            "artist": "Ed Sheeran",
-            "title": "Perfect",
-            "url": "https://www.youtube.com/embed/sPMA1tqWuf4",
+            "artist": "Oasis",
+            "title": "Wonderwall",
+            "url": "https://www.youtube.com/embed/xROf-J2TdFM",
     
     },
     {
-            "artist": "Smash Mouth",
-            "title": "All Star",
-            "url": "https://www.youtube.com/embed/ABOYo7ioQJo",
+            "artist": "Post Malone",
+            "title": "Rockstar",
+            "url": "https://www.youtube.com/embed/RiK4uV0uljo",
     
     },
       {
@@ -51,142 +51,148 @@ class App extends Component {
     
     },
     {
-            "artist": "Brtiney Spears",
-            "title": "Toxic",
-            "url": "https://www.youtube.com/embed/Z_tTE7SBlo0",
+            "artist": "Taylor Swift",
+            "title": "End Game",
+            "url": "https://www.youtube.com/embed/JAIBFxeOXGY",
     
     },
     {
-            "artist": "Celine Deion",
-            "title": "My Heart Will Go On",
-            "url": "https://www.youtube.com/embed/cdgU8YmD3Kc",
+            "artist": "Dua Lipa",
+            "title": "IDGAF",
+            "url": "https://www.youtube.com/embed/3fLHTK5w6Mo",
     
     },
     {
-            "artist": "Seal",
-            "title": "Kiss From A Rose",
-            "url": "https://www.youtube.com/embed/Ug6Mr144qrM",
+            "artist": "Maroon 5 ft. Sia",
+            "title": "What Lovers Do",
+            "url": "https://www.youtube.com/embed/LjDrKszD2bk",
     
     },
     {
-            "artist": "Frozen",
-            "title": "Let It Go",
-            "url": "https://www.youtube.com/embed/ifCAfAzOBJM",
+            "artist": "Portugal The Man",
+            "title": "Feel It Still",
+            "url": "https://www.youtube.com/embed/ruwL0GFfCDc",
     
     },
     {
-            "artist": "Alicia Keys",
-            "title": "If I aint got you",
-            "url": "https://www.youtube.com/embed/M5Q0eiMzup0",
+            "artist": "Ed Sheeran",
+            "title": "What Do I Know",
+            "url": "https://www.youtube.com/embed/Di7mcTcHajk",
     
     },
     {
-            "artist": "Anna Kendrick",
-            "title": "Cups (Pitch Perfect's When I'm Gone)",
-            "url": "https://www.youtube.com/embed/mNL7iE-CxXA",
+            "artist": "Queen",
+            "title": "Bohemian Rhapsody",
+            "url": "https://www.youtube.com/embed/XuHG2fnz8hA",
     
     },
     {
-            "artist": "David Guetta feat. Sia",
-            "title": "Titanium",
-            "url": "https://www.youtube.com/embed/32LB2DR_JM0",
+            "artist": "Pharell Williams",
+            "title": "Happy",
+            "url": "https://www.youtube.com/embed/mIYs48J6ObQ",
     
     },
     {
-            "artist": "Beyonce",
-            "title": "Halo",
-            "url": "https://www.youtube.com/embed/TBwf18A_Obo",
+            "artist": "Weezer",
+            "title": "Island In The Sun",
+            "url": "https://www.youtube.com/embed/il0S6WrKjnY",
     
     },
     {
-            "artist": "Flume ft. Kai",
-            "title": "Never Be Like You",
-            "url": "https://www.youtube.com/embed/j7vRvZl-9ic",
+            "artist": "Foster The People",
+            "title": "Pumped Up Kicks",
+            "url": "https://www.youtube.com/embed/FWgW8i5YLIQ",
     
     },
     {
-            "artist": "Amy Winehouse",
-            "title": "Back to Black",
-            "url": "https://www.youtube.com/embed/snSHKsE22DQ",
+            "artist": "Europe",
+            "title": "Final Countdown",
+            "url": "https://www.youtube.com/embed/9DTlwhW6jVg",
+    
+    },
+    {
+            "artist": "Avril Lavigne",
+            "title": "Sk8er Boi",
+            "url": "https://www.youtube.com/embed/CVCTuZM3OE8",
+    
+    },
+    {
+            "artist": "James Brown",
+            "title": "I got You",
+            "url": "https://www.youtube.com/embed/0ENi1I8wwsQ",
+    
+    },
+    {
+            "artist": "Luis Fonsi/Daddy Yankee ",
+            "title": "Despacito",
+            "url": "https://www.youtube.com/embed/OqByYBieXcE",
+    
+    },
+    {
+            "artist": "Avicii",
+            "title": "Wake Me Up",
+            "url": "https://www.youtube.com/embed/TY0LSYzZs00",
     
     },
     {
             "artist": "Beyonce",
             "title": "Listen",
-            "url": "https://www.youtube.com/embed/nUTqLi7UtLQ",
+            "url": "https://www.youtube.com/embed/tVPNB_QVxMA",
     
     },
     {
-            "artist": "Sublime",
-            "title": "What I got",
-            "url": "https://www.youtube.com/embed/JnQY3EnaxXQ",
+            "artist": "Phatom Planet",
+            "title": "California",
+            "url": "https://www.youtube.com/embed/4saU0KTF3E0",
+    
+    },
+     {
+            "artist": "Eric Clapton",
+            "title": "Tears In Heaven",
+            "url": "https://www.youtube.com/embed/0CrDBjj3vcY",
+    
+    },
+     {
+            "artist": "The Police",
+            "title": "Every Breath You Take",
+            "url": "https://www.youtube.com/embed/lVZfhvTpe8Y",
+    
+    },
+     {
+            "artist": "A-Ha",
+            "title": "Take On Me",
+            "url": "https://www.youtube.com/embed/NkNxY2LLfsc",
+    
+    },
+     {
+            "artist": "Five For Fighting",
+            "title": "Superman",
+            "url": "https://www.youtube.com/embed/KJ3JwKJVwBE",
+    
+    },
+     {
+            "artist": "MGMT",
+            "title": "Electric Feel",
+            "url": "https://www.youtube.com/embed/7TTGczmpkSc",
+    
+    },
+     {
+            "artist": "Jennifer Lopez",
+            "title": "Waiting for Tonight",
+            "url": "https://www.youtube.com/embed/9EQlEsEUuZY",
+    
+    },
+     {
+            "artist": "The Verve",
+            "title": "Bitter Sweet Symphony",
+            "url": "https://www.youtube.com/embed/Q8qpxUtKteQ",
     
     },
     {
-            "artist": "Red Hot Chili Peppers ",
-            "title": "Under the Bridge",
-            "url": "https://www.youtube.com/embed/AEce22afpbU",
-    
-    },
-    {
-            "artist": "Green Day",
-            "title": "21 Guns",
-            "url": "https://www.youtube.com/embed/Q6nw3xlHM2Q",
-    
-    },
-    {
-            "artist": "Green Day",
-            "title": "Basket Case",
-            "url": "https://www.youtube.com/embed/UntbNt8rK4w",
-    
-    },
-    {
-            "artist": "Cee Lo Green",
-            "title": "Forget You",
-            "url": "https://www.youtube.com/embed/l-hN9wzbPJE",
-    
-    },
-     {
-            "artist": "Survivor",
-            "title": "Eye Of The Tiger",
-            "url": "https://www.youtube.com/embed/aGCyrDahk4I",
-    
-    },
-     {
-            "artist": "Childish Gambino",
-            "title": "Feels Like Summer",
-            "url": "https://www.youtube.com/embed/aGCyrDahk4I",
-    
-    },
-     {
-            "artist": "Notorious BIG",
-            "title": "Juicy",
-            "url": "https://www.youtube.com/embed/tXEgOApN1uM",
-    
-    },
-     {
-            "artist": "Notorious BIG",
-            "title": "Big Poppa",
-            "url": "https://www.youtube.com/embed/LE0NtT0IK1c",
-    
-    },
-     {
-            "artist": "Notorious BIG",
-            "title": "Mo Money Mo Problems",
-            "url": "https://www.youtube.com/embed/uDmv1kh9_g8",
-    
-    },
-     {
-            "artist": "Sublime",
-            "title": "Santeria",
-            "url": "https://www.youtube.com/embed/M9T43nB58NY",
-    
-    },
-     {
-            "artist": "Sublime",
-            "title": "Garden Grove",
-            "url": "https://www.youtube.com/embed/vxxGhc3tiLo",
-    
+        "artist": "Bon Jovi",
+        "title": "It's My Life",
+        "url": "https://www.youtube.com/embed/dLonwOk5mUc",
+
     },
   ]
   }
