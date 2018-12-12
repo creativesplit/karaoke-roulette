@@ -6,15 +6,18 @@
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(81, 98, 129);
-    color: white;
+    background-color: rgba(0, 0, 0, .8);
+    color: rgb(37, 209, 231);
     font-family: Helvetica, sans-serif;
     top:0;
     left:0;
 }
-h2 {
+.headerTitle {
     font-weight: 400;
     margin: 10px;
+    align-content: center;
+    margin-right:100px;
+    padding-right: 150px;
 }
 a {
     color: white;
@@ -22,4 +25,5 @@ a {
 }
 .test{
     padding: 10px;
+    color: rgb(37, 209, 231);
 }

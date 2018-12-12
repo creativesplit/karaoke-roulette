@@ -10,7 +10,6 @@ class Header extends Component {
             <div>
             <header className="header-wrapper">
               <h2 className="headerTitle">Karaoke Roulette</h2>
-              <h3 className="tagline">Karaoke, but with more laughs</h3>
               <div className="link-wrapper">
                 <Link className="test" to="/">Home</Link>
                 <Link className="test" to="/selectsongs">Select Songs</Link>

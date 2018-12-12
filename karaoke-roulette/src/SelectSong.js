@@ -35,8 +35,8 @@ class SelectSong extends Component {
     render() {
   
         return (
-        <div>
-            <h2 className='title'>Select Your Songs</h2>
+        <div className='page'>
+            <h2 className='sstitle'>Select Your Songs</h2>
             <div className='button-wrapper'>
             <input onClick={this.addSong} type="button" name={this.props.songs[0].title} className={this.props.songs[0].artist} id={this.props.songs[0].url} value ='The Eagles - Hotel California'/>
             <input onClick={this.addSong} type="button" name={this.props.songs[1].title} className={this.props.songs[1].artist} id={this.props.songs[1].url} value ='Oasis - Wonderwall'/>
