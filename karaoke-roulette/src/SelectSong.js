@@ -66,6 +66,46 @@ class SelectSong extends Component {
             <input onClick={this.addSong} type="button" name={this.props.songs[25].title} className={this.props.songs[25].artist} id={this.props.songs[25].url} value ='Jennifer Lopez - Waiting For Tonight'/>
             <input onClick={this.addSong} type="button" name={this.props.songs[26].title} className={this.props.songs[26].artist} id={this.props.songs[26].url} value ='The Verve - Bitter Sweet Symphony'/>
             <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value ='Bon Jovi - Its My Life'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[28].title} className={this.props.songs[28].artist} id={this.props.songs[28].url} value ='Chet Faker - The Trouble With Us'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[29].title} className={this.props.songs[29].artist} id={this.props.songs[29].url} value ='Mome - Aloha'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[30].title} className={this.props.songs[30].artist} id={this.props.songs[30].url} value ='The Neighbourhood - Sweater Weather'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[31].title} className={this.props.songs[31].artist} id={this.props.songs[31].url} value ='Britney Spears - Toxic'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[32].title} className={this.props.songs[32].artist} id={this.props.songs[32].url} value ='Eminem - The Real Slim Shady'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[33].title} className={this.props.songs[33].artist} id={this.props.songs[33].url} value ='Rolling Stones - I Cant Get No Satisfaction'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[34].title} className={this.props.songs[34].artist} id={this.props.songs[34].url} value ='Green Day - American Idiot'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[35].title} className={this.props.songs[35].artist} id={this.props.songs[35].url} value ='Bon Jovi - Have A Nice Day'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[36].title} className={this.props.songs[36].artist} id={this.props.songs[36].url} value ='Beatles - Let It Be'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[37].title} className={this.props.songs[37].artist} id={this.props.songs[37].url} value ='Green Day - Basketcase'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[38].title} className={this.props.songs[38].artist} id={this.props.songs[38].url} value ='Red Hot Chili Peppers - Californication'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[39].title} className={this.props.songs[39].artist} id={this.props.songs[39].url} value ='Daft Punk - Get Lucky'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[40].title} className={this.props.songs[40].artist} id={this.props.songs[40].url} value ='Queen - We Are The Champions'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[41].title} className={this.props.songs[41].artist} id={this.props.songs[41].url} value ='Bon Jovi - Its My Life'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[42].title} className={this.props.songs[42].artist} id={this.props.songs[42].url} value ='The Lumineers - Hey Ho'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[43].title} className={this.props.songs[43].artist} id={this.props.songs[43].url} value ='Bon Jovi - Living On A Prayer'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[44].title} className={this.props.songs[44].artist} id={this.props.songs[44].url} value ='Red Hot Chili Peppers - Under The Bridge'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[45].title} className={this.props.songs[45].artist} id={this.props.songs[45].url} value ='Lorde - Royals'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[46].title} className={this.props.songs[46].artist} id={this.props.songs[46].url} value ='Adele - Hello'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[47].title} className={this.props.songs[47].artist} id={this.props.songs[47].url} value ='Sam Smith - Stay With Me'/>
+            {/* <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/> */}
+
+            
+
             
             
             

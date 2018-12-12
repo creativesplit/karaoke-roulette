@@ -39,7 +39,7 @@ class App extends Component {
         {prompt: "What three adjectives best describe your vagina/penis"},
         {prompt: "What’s the one thing you’ve always wanted to do in bed"},
         {prompt: "What sexual milestone has been most memorable for you so far"},
-        {prompt: "What would you guess your parents’ favorite sexual position is, and why"},
+        {prompt: "What would you guess your parents’ favorite sexual position is, and why?"},
         {prompt: "Tell is about a time you have been hit on by someone of the same sex"} 
       ],
 
@@ -155,7 +155,7 @@ class App extends Component {
     {
             "artist": "Avicii",
             "title": "Wake Me Up",
-            "url": "https://www.youtube.com/embed/TY0LSYzZs00",
+            "url": "https://www.youtube.com/embed/tzshZ0s1eh4",
     
     },
     {
@@ -218,6 +218,147 @@ class App extends Component {
         "url": "https://www.youtube.com/embed/dLonwOk5mUc",
 
     },
+    {
+            "artist": "Chet Faker",
+            "title": "The Trouble With Us",
+            "url": "https://www.youtube.com/embed/iNwgfLNDFhY",
+    },
+    {
+        "artist": "Mome",
+        "title": "Aloha",
+        "url": "https://www.youtube.com/embed/7esu_xE8gbs",
+        },
+        {
+                "artist": "The Neighbourhood",
+                "title": "Sweater Weather",
+                "url": "https://www.youtube.com/embed/VUdM9XrlQoM",
+        },
+        {
+                "artist": "Britney Spears",
+                "title": "Toxic",
+                "url": "https://www.youtube.com/embed/Z_tTE7SBlo0",
+        },
+        {
+                "artist": "Eminem",
+                "title": "The Real Slim Shady",
+                "url": "https://www.youtube.com/embed/j0a1iSmYXdU",
+        },
+        {
+                "artist": "Rolling Stones",
+                "title": "I Cant Get No Satisfaction",
+                "url": "https://www.youtube.com/embed/fgkxPooEypE",
+        },
+        {
+                "artist": "Green Day",
+                "title": "American Idiot",
+                "url": "https://www.youtube.com/embed/vOvwbRhX0do",
+        },
+        {
+                "artist": "Bon Jovi",
+                "title": "Have A Nice Day",
+                "url": "https://www.youtube.com/PgRKXCKr7nY",
+        },
+        {
+                "artist": "Beatles",
+                "title": "Let It Be",
+                "url": "https://www.youtube.com/embed/8ZLj3VAPtc0",
+        },
+        {
+                "artist": "Green Day",
+                "title": "Basket Case",
+                "url": "https://www.youtube.com/embed/CurDwsSINGE",
+        },
+        {
+                "artist": "Red Hot Chili Peppers",
+                "title": "Californication",
+                "url": "https://www.youtube.com/embed/04-nxiHHYsA",
+        },
+        {
+                "artist": "Daft Punk",
+                "title": "Get Lucky",
+                "url": "https://www.youtube.com/embed/wwgHEWAsaPc",
+        },
+        {
+                "artist": "Queen",
+                "title": "We Are The Champions",
+                "url": "https://www.youtube.com/embed/eq5rl24t1Y8",
+        },
+        {
+                "artist": "Bon Jovi",
+                "title": "Its My Life",
+                "url": "https://www.youtube.com/embed/MH8LQ0X6naA",
+        },
+        {
+                "artist": "The Lumineers",
+                "title": "Hey Ho",
+                "url": "https://www.youtube.com/embed/sruYNRVr3hw",
+        },
+        {
+                "artist": "Bon Jovi",
+                "title": "Living On A Prayer",
+                "url": "https://www.youtube.com/embed/WqWHGGQn_c0",
+        },
+        {
+                "artist": "Red Hot Chili Peppers",
+                "title": "Under The Bridge",
+                "url": "https://www.youtube.com/embed/-QIhsvGS778",
+        },
+        {
+                "artist": "Lorde",
+                "title": "Royals",
+                "url": "https://www.youtube.com/embed/-_Dw37LPeAA",
+        },
+        {
+                "artist": "Adele",
+                "title": "Hello",
+                "url": "https://www.youtube.com/embed/E8iOHgJ3ypY",
+        },
+        {
+                "artist": "Sam Smith",
+                "title": "Stay With Me",
+                "url": "https:/WfcndqZas6w",
+        },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+        // {
+        //         "artist": "",
+        //         "title": "",
+        //         "url": "https://www.youtube.com/embed/",
+        // },
+
   ]
   }
   }
