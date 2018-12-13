@@ -21,26 +21,13 @@ class App extends Component {
         {prompt: "Tell us about what you would do if you were the opposite sex for a day?"},
         {prompt: "Tell us about the most childish thing you still do"},
         {prompt: "Tell us about your worst encounter you had with a police officer"},
-        {prompt: "Tell us About Your First Kiss"},
-        {prompt: "Tell us the strangest place you have peed"},
-        {prompt: "Tell us about the most embarrassing thing your parents have caught you doing"},
         {prompt: "Tell us about the most inappropriate time you farted"},
         {prompt: "Tell us about the most embarrassing thing in your room"},
-        {prompt: "Tell us about the stupidest thing you have ever done"},
-        {prompt: "Tell us about the last time you peed in bed"},
         {prompt: "Tell us about the most embarrassing thing you have put up on social media"},
-        {prompt: "Tell me about the last time someone unexpectedly walked in on you while you were naked."},
         {prompt: "Tell us about the most embarrassing nickname you have ever had"},
         {prompt: "Show us the most embarrassing photo you have on your phone"},
         {prompt: "Tell us about something you really hope your parents never find out about"},
-        {prompt: "Tell us your most embarrassing vomit story."},
-        {prompt: "Tell us about your embarassing celebrity crush"},
-        {prompt: "Tell us about a sexual activity that you consider totally off limits"},
-        {prompt: "What three adjectives best describe your vagina/penis"},
-        {prompt: "What’s the one thing you’ve always wanted to do in bed"},
-        {prompt: "What sexual milestone has been most memorable for you so far"},
-        {prompt: "What would you guess your parents’ favorite sexual position is, and why?"},
-        {prompt: "Tell is about a time you have been hit on by someone of the same sex"} 
+        {prompt: "Tell us about your embarassing celebrity crush"}
       ],
 
       wheel: [
