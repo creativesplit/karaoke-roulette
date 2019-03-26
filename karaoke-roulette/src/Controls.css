@@ -4,6 +4,7 @@
     background-size: 800px;
     background-position: center bottom;
     background-repeat: repeat-x;
+    background-attachment: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

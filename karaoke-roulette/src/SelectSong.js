@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './SelectSong.css'
+import {Link} from 'react-router-dom'
 
 
 class SelectSong extends Component {
@@ -16,6 +17,7 @@ class SelectSong extends Component {
         }
 
         this.props.handleChange(combined)
+
     }
 
     // addSong2 = (e) => {
@@ -86,6 +88,13 @@ class SelectSong extends Component {
             <input onClick={this.addSong} type="button" name={this.props.songs[45].title} className={this.props.songs[45].artist} id={this.props.songs[45].url} value ='Lorde - Royals'/>
             <input onClick={this.addSong} type="button" name={this.props.songs[46].title} className={this.props.songs[46].artist} id={this.props.songs[46].url} value ='Adele - Hello'/>
             <input onClick={this.addSong} type="button" name={this.props.songs[47].title} className={this.props.songs[47].artist} id={this.props.songs[47].url} value ='Sam Smith - Stay With Me'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[48].title} className={this.props.songs[48].artist} id={this.props.songs[48].url} value ='Sublime - What I Got'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[49].title} className={this.props.songs[49].artist} id={this.props.songs[49].url} value ='Flogging Molly - Devils Dance Floor'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[50].title} className={this.props.songs[50].artist} id={this.props.songs[50].url} value ='Sublime - Smoke Two Joints'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[51].title} className={this.props.songs[51].artist} id={this.props.songs[51].url} value ='Sublime - Doing Time'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[52].title} className={this.props.songs[52].artist} id={this.props.songs[52].url} value ='Weezer - Say It Aint So'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[53].title} className={this.props.songs[53].artist} id={this.props.songs[53].url} value ='Sublime - Badfish'/>
+            <input onClick={this.addSong} type="button" name={this.props.songs[54].title} className={this.props.songs[54].artist} id={this.props.songs[54].url} value ='Shaggy - Angel'/>
             {/* <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
             <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
             <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
@@ -95,15 +104,8 @@ class SelectSong extends Component {
             <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
             <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
             <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
-            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
-            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
-            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
-            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
-            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
-            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
-            <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/>
             <input onClick={this.addSong} type="button" name={this.props.songs[27].title} className={this.props.songs[27].artist} id={this.props.songs[27].url} value =''/> */}
-
+            <br></br><Link to='./Controls.js' type='button' className='sing'> Let's Go Sing</Link>
             
 
             

@@ -31,16 +31,13 @@ class App extends Component {
       ],
 
       wheel: [
-        //   artist:"",
-        //   song: "",
-        //   url: ""
         
       ],
       songs: [
         {
             "artist": "The Eagles",
             "title": "Hotel California",
-            "url": "https://www.youtube.com/embed/iMYumh4M5cc",
+            "url": "https://www.youtube.com/embed/cQijDIUgnMU",
     
     },
     {
@@ -303,43 +300,43 @@ class App extends Component {
         {
                 "artist": "Sam Smith",
                 "title": "Stay With Me",
-                "url": "https:/WfcndqZas6w",
+                "url": "https://www.youtube.com/embed/WfcndqZas6w",
         },
-        // {
-        //         "artist": "",
-        //         "title": "",
-        //         "url": "https://www.youtube.com/embed/",
-        // },
-        // {
-        //         "artist": "",
-        //         "title": "",
-        //         "url": "https://www.youtube.com/embed/",
-        // },
-        // {
-        //         "artist": "",
-        //         "title": "",
-        //         "url": "https://www.youtube.com/embed/",
-        // },
-        // {
-        //         "artist": "",
-        //         "title": "",
-        //         "url": "https://www.youtube.com/embed/",
-        // },
-        // {
-        //         "artist": "",
-        //         "title": "",
-        //         "url": "https://www.youtube.com/embed/",
-        // },
-        // {
-        //         "artist": "",
-        //         "title": "",
-        //         "url": "https://www.youtube.com/embed/",
-        // },
-        // {
-        //         "artist": "",
-        //         "title": "",
-        //         "url": "https://www.youtube.com/embed/",
-        // },
+        {
+                "artist": "Sublime",
+                "title": "What I Got",
+                "url": "https://www.youtube.com/embed/qXOoU0eKrcc",
+        },
+        {
+                "artist": "Flogging Molly",
+                "title": "Devils Dance Floor",
+                "url": "https://www.youtube.com/embed/a9l2qFKdh3o",
+        },
+        {
+                "artist": "Sublime",
+                "title": "Smoke Two Joints",
+                "url": "https://www.youtube.com/embed/0dnnLCbtVhg",
+        },
+        {
+                "artist": "Sublime",
+                "title": "Doing Time",
+                "url": "https://www.youtube.com/embed/2jc-Hlg-940",
+        },
+        {
+                "artist": "Weezer",
+                "title": "Say It Ain\'t So",
+                "url": "https://www.youtube.com/embed/PfbqKlFX56A",
+        },
+        {
+                "artist": "Badfish",
+                "title": "Sublime",
+                "url": "https://www.youtube.com/embed/FSVb5KSVqKc",
+        },
+        {
+                "artist": "Shaggy",
+                "title": "Angel",
+                "url": "https://www.youtube.com/embed/GOcZ6_Do3ag",
+        },
         // {
         //         "artist": "",
         //         "title": "",
